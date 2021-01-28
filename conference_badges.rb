@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(speakers)
-  # binding.pry
+  binding.pry
   new_array = []
   speakers.each_with_index do |person, index|
   new_array[person] = index
