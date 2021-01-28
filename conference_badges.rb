@@ -10,9 +10,7 @@ end
 
 def assign_rooms(speakers)
   #binding.pry
-  new_array = []
   speakers.each_with_index.map do |person, index|
-  new_array[index] = person
-  new_array << "Hello, #{person}! You'll be assigned to room #{index + 1}!"
+  "Hello, #{person}! You'll be assigned to room #{index + 1}!"
   end
 end
