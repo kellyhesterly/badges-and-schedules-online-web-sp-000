@@ -8,8 +8,8 @@ end
 
 def assign_rooms(speakers)
   new_array = []
-  speakers.each_with_index do |person, number|
-  new_array << speakers[person] = number
-   return "Hello, #{person}! You'll be assigned to room #{number}!"
+  speakers.each_with_index do |person, i|
+  new_array[person] = i
+   "Hello, #{person}! You'll be assigned to room #{i}!"
   end
 end
