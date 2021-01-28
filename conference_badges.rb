@@ -15,6 +15,7 @@ def assign_rooms(attendees)
 end
 
 def print(attendees)
+  binding.pry
   batch_badge_creator(attendees)
   assign_rooms(attendees)
 end
